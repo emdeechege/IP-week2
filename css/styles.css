@@ -9,7 +9,7 @@
 }
 
 #top {
-  /*font-family: 'Rajdhani';*/
+  font-family: 'Rajdhani';
   font-weight: 400;
   font-stretch: extra-expanded;
   font-size: 35px;
@@ -153,15 +153,11 @@
   align-content: center;
 }
 
-#mgk {
-  align-content: center;
-}
-
 #back {
   background-image: url("../img/backgrounds/foodsBg.jpg");
   background-repeat: no-repeat;
   border-radius: 0;
-  height: 400px;
+  height:350px;
 }
 #row2{
   padding-bottom:30px;
