@@ -110,3 +110,16 @@
 #cf {
   height: 161px;
 }
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+#second {
+  width: 1014px;
+  height: 210px;
+}
