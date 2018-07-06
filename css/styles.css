@@ -29,20 +29,6 @@
   font-weight: 600;
 }
 
-#junk {
-  font-family: 'Catamaran';
-  font-size: 30px;
-  font-stretch: expanded;
-  font-weight: bold;
-}
-
-#gdfood {
-  font-family: 'Catamaran';
-  font-stretch: expanded;
-  font-weight: 200;
-  font-weight: bold;
-}
-
 #Breakfast {
   background-image: url("../img/foodtop/breakfast.jpg");
   text-align: center;
@@ -87,6 +73,7 @@
   color: white;
   padding-bottom: 80px;
   height: 210px;
+  float:right;
 }
 
 #Dinner:hover {
@@ -120,7 +107,7 @@ form {
   background-color: #ffffff;
 }
 
-#MENU {
+#menu {
   background-color: #F15A29;
   text-align: center;
 }
@@ -317,8 +304,9 @@ body {
   background-color: #ffffff;
   padding-left: 0px;
   padding-right: 0px;
-  width: 1000px;
+  width: 100px;
   height: 367px;
+  align-items: left
 }
 
 #row2 {
@@ -392,7 +380,7 @@ body {
 }
 
 #cf {
-  height: 161px;
+  height: 160px;
 }
 
 #second {
