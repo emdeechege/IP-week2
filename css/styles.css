@@ -133,6 +133,7 @@
   padding-left: 0px;
   width: 600px;
 }
+
 #about {
   padding-left: 10px;
 }
@@ -142,10 +143,19 @@
   font-family: 'Catamaran';
   font-size: 35px;
 }
-.tagline{
-    text-align: center;
-    align-content: center;
-}
-#mgk{
+
+.tagline {
+  text-align: center;
   align-content: center;
+}
+
+#mgk {
+  align-content: center;
+}
+
+#back {
+  width: 100%;
+  height: 636px;
+  background-image: url("../img/backgrounds/foodsBg.jpg");
+  background-repeat: no-repeat;
 }
