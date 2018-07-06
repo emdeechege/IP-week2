@@ -109,6 +109,7 @@
 
 #cf {
   height: 161px;
+  padding-top: 100px;
 }
 
 .row {
@@ -136,7 +137,11 @@
 #about {
   padding-left: 10px;
 }
-
+.foot {
+  background-color: #F15A29
+  text-align:center;
+  color: white;
+}
 #menn {
   font-weight: 400;
   font-family: 'Catamaran';
@@ -159,8 +164,13 @@
   height: 400px;
 }
 #row2{
-  margin:0;
+  padding-bottom:30px;
 }
 #fad{
   border-style: groove;
+}
+.foot {
+  background-color: #F15A29
+  text-align:center;
+  color: white;
 }
