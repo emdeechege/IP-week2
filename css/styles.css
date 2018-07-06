@@ -156,8 +156,11 @@
   background-image: url("../img/backgrounds/foodsBg.jpg");
   background-repeat: no-repeat;
   border-radius: 0;
+  height: 400px;
 }
 #row2{
-  padding: 0;
   margin:0;
+}
+#fad{
+  border-style: groove;
 }
