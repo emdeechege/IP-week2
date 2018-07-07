@@ -1,7 +1,9 @@
 #one {
-  border-radius: 0;
+  width: 100%;
+  height: 636px;
   background-image: url("../img/backgrounds/landing.jpg");
   background-repeat: no-repeat;
+  padding-bottom: 0;
 }
 
 #logo {
@@ -9,7 +11,7 @@
 }
 
 #top {
-  font-family: 'Rajdhani';
+  font-family: 'Catamaran';
   font-weight: 400;
   font-stretch: extra-expanded;
   font-size: 35px;
@@ -37,9 +39,10 @@
   color: #ffffff;
 }
 
-#Breakfast:hover {
+#break:hover {
   color: #000000;
-  background-image: rgba(255, 255, 255, 0.3);
+  background-image: url("../img/foodtop/dinner2.jpg");
+  ;
 }
 
 #break {
@@ -56,8 +59,9 @@
   color: #ffffff;
 }
 
-#Lunch:hover {
+#lun:hover {
   color: #000000;
+  background-image: url("../img/foodtop/dinner2.jpg");
 }
 
 #lun {
@@ -74,8 +78,9 @@
   color: #ffffff;
 }
 
-#Dinner:hover {
+#dine:hover {
   color: #000000;
+  background-image: url("../img/foodtop/dinner2.jpg");
 }
 
 #dine {
@@ -83,9 +88,6 @@
   font-size: 30px;
 }
 
-#grid {
-  background-image: url("../img/backgrounds/foodsBg.jpg");
-  background-color: #FFFFFFFF;
 }
 
 #customers {
@@ -105,6 +107,7 @@
   background-color: #F15A29;
   text-align: center;
   align-content: center;
+  color: white;
 }
 
 #cf {
@@ -112,21 +115,12 @@
   padding-top: 100px;
 }
 
-.row {
-  margin-right: 0px;
-  margin-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  text-align: center;
-}
-
 #second {
-  width: 1014px;
+  width: 1000px;
   height: 210px;
 }
 
 #our {
-  border-right-style: groove;
   padding-right: 0px;
   border-width: thin;
   padding-bottom: 10px;
@@ -137,36 +131,125 @@
 #about {
   padding-left: 10px;
 }
+
 .foot {
-  background-color: #F15A29
-  text-align:center;
+  background-color: #F15A29 text-align:center;
   color: white;
 }
+
 #menn {
   font-weight: 400;
   font-family: 'Catamaran';
   font-size: 35px;
 }
 
-.tagline {
-  text-align: center;
-  align-content: center;
-}
-
 #back {
   background-image: url("../img/backgrounds/foodsBg.jpg");
   background-repeat: no-repeat;
   border-radius: 0;
-  height:350px;
+  height: 350px;
 }
-#row2{
-  padding-bottom:30px;
+
+#row2 {
+  padding-left: 40px;
+  padding-bottom: 100px;
 }
-#fad{
+
+#fad {
   border-style: groove;
 }
-.foot {
-  background-color: #F15A29
-  text-align:center;
-  color: white;
+
+.col3 {
+  border: 2px;
+  display: flex;
+}
+
+#foodsBg {
+  float: right;
+  padding-right: 0px;
+  margin-left: 8%;
+}
+
+.padding-0 {
+  padding-right: 0;
+  padding-left: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.padding-1 {
+  padding-right: 0;
+  padding-left: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.padding-2 {
+  padding-left: 60px;
+}
+
+.overlay {
+  height: 100%;
+  padding: 0;
+  width: 100%;
+  background-color: #F15A29 color: rgb(0, 0, 0, );
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  text-decoration-color: black;
+}
+
+.overlay a {
+  padding: 8px;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+#mc_embed_signup {
+  background-image: url("../img/backgrounds/subscribe.jpg");
+  height: 200px;
+  font: 14px, Helvetica, Arial, sans-serif;
+  padding: 0;
+  text-align: center;
+  }
+
+#mc-embedded-subscribe {
+  background-color: #FFFFFFFF;
+}
+
+.tag {
+  text-align: center;
+  text-decoration-color: white;
 }
