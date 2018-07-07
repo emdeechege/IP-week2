@@ -184,13 +184,6 @@
   padding-top: 0;
 }
 
-#bot2 {
-  background-image: url("../img/backgrounds/subscribe.jpg");
-  background-repeat: no-repeat;
-  border-radius: 0;
-  height: 250px;
-}
-
 .padding-2 {
   padding-left: 60px;
 }
@@ -242,4 +235,21 @@
     top: 15px;
     right: 35px;
   }
+}
+
+#mc_embed_signup {
+  background-image: url("../img/backgrounds/subscribe.jpg");
+  height: 200px;
+  font: 14px, Helvetica, Arial, sans-serif;
+  padding: 0;
+  text-align: center;
+  }
+
+#mc-embedded-subscribe {
+  background-color: #FFFFFFFF;
+}
+
+.tag {
+  text-align: center;
+  text-decoration-color: white;
 }
