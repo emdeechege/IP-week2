@@ -9,20 +9,101 @@
   <link rel="stylesheet" href="css/styles.css">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118584133-1"></script>
-      < script src = "js/scripts.js" >
+  <script src="js/scripts.js">
   </script>
+  <style>
+    body {
+      font-family: 'Lato', sans-serif;
+    }
 
+    .nav23 {
+      color: #fff;
+      margin-left: 10%;
+      margin-top: 10%;
+    }
+
+    .overlay {
+      height: 100%;
+      width: 100%;
+      display: none;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #F15A29;
+    }
+
+    .overlay-content {
+      position: relative;
+      top: 25%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .overlay a {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 36px;
+      color: #000000;
+      display: block;
+      transition: 0.3s;
+
+    }
+
+    .overlay a:hover,
+    .overlay a:focus {
+      color: #f1f1f1;
+    }
+
+    .overlay .closebtn {
+      position: absolute;
+      top: 20px;
+      right: 45px;
+      font-size: 60px;
+    }
+
+    @media screen and (max-height: 450px) {
+      .overlay a {
+        font-size: 20px
+      }
+      .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+      }
+    }
+  </style>
   <title>ANITA'S KITCHEN</title>
 </head>
 
 <body class="container">
   <div class="jumbotron" id="one">
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    <span class="nav23" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.display = "block";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.display = "none";
+      }
+    </script>
     <header id="logo">
       <img src="img/logoBig.png" alt="image of a an humberger logo">
       <p id="top">We Provide The Best Food<br /> At The <strong>Right Price</strong></p>
     </header>
   </div>
-  <div class="row">
+  <div class="row" padding-1>
     <div class="col-md-3 padding-0">
       <div class="row"></div>
       <div class="row"></div>
@@ -46,10 +127,10 @@
         <div class="row"><img src="img/fastFood1.jpg"></div>
         <div class="row"><img src="img/fastFood2.jpg"></div>
       </div>
-      <div class="col">
-        <h3 id="fas">Fast Food</h3>
+      <div class="col padding-2">
+        <h3>Fast Food</h3>
         <br/>
-        <h5 id="del">You'll love our delicious fast food</h5>
+        <h5>You'll love our delicious fast food</h5>
         <p>Mauris in tincidunt urna. Phasellus tristique in<br/> ante non faucibus. Praesent porta leo sit amet <br/> lorem sagittis, nec egestas eros ullamcorper. Morbi<br/> posuere laoreet pharetra. Aliquam a enim ut sem rutrum<br/> cursus.Nam pretium
           tincidunt suscipit. Proin convallis <br/> consequat nibh ac maximus. Praesent sem mi, bibendum nec<br/> vulputate sodales, tincidunt non risus.</p>
       </div>
@@ -123,6 +204,9 @@
                 <br/>
               </div>
             </div>
+          </div>
+          <div class="row" id="bot2">
+
           </div>
           <div class="col-md-1"></div>
         </div>

@@ -1,7 +1,9 @@
 #one {
-  border-radius: 0;
+  width: 100%;
+  height: 636px;
   background-image: url("../img/backgrounds/landing.jpg");
   background-repeat: no-repeat;
+  padding-bottom: 0;
 }
 
 #logo {
@@ -9,7 +11,7 @@
 }
 
 #top {
-  font-family: 'Rajdhani';
+  font-family: 'Catamaran';
   font-weight: 400;
   font-stretch: extra-expanded;
   font-size: 35px;
@@ -39,7 +41,8 @@
 
 #break:hover {
   color: #000000;
-  background-image: url("../img/foodtop/dinner2.jpg");;
+  background-image: url("../img/foodtop/dinner2.jpg");
+  ;
 }
 
 #break {
@@ -59,7 +62,7 @@
 #lun:hover {
   color: #000000;
   background-image: url("../img/foodtop/dinner2.jpg");
-  }
+}
 
 #lun {
   font-family: 'Catamaran';
@@ -86,6 +89,7 @@
 }
 
 }
+
 #customers {
   text-align: center;
   width: 1000px;
@@ -103,8 +107,8 @@
   background-color: #F15A29;
   text-align: center;
   align-content: center;
-  color:white;
-  }
+  color: white;
+}
 
 #cf {
   height: 161px;
@@ -147,25 +151,95 @@
 }
 
 #row2 {
-  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-bottom: 100px;
 }
 
 #fad {
   border-style: groove;
 }
-.col3{
-  border:2px;
-  display:flex;
-  }
+
+.col3 {
+  border: 2px;
+  display: flex;
+}
 
 #foodsBg {
   float: right;
-  padding-right:0px;
-  margin-left:8%;
+  padding-right: 0px;
+  margin-left: 8%;
 }
 
-.padding-0{
-    padding-right:0;
-    padding-left:0;
-    margin-top: 0;
+.padding-0 {
+  padding-right: 0;
+  padding-left: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.padding-1 {
+  padding-right: 0;
+  padding-left: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#bot2 {
+  background-image: url("../img/backgrounds/subscribe.jpg");
+  background-repeat: no-repeat;
+  border-radius: 0;
+  height: 250px;
+}
+
+.padding-2 {
+  padding-left: 60px;
+}
+
+.overlay {
+  height: 100%;
+  padding: 0;
+  width: 100%;
+  background-color: #F15A29 color: rgb(0, 0, 0, );
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  text-decoration-color: black;
+}
+
+.overlay a {
+  padding: 8px;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
 }
