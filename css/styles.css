@@ -37,7 +37,7 @@
   color: #ffffff;
 }
 
-#Breakfast:hover {
+#break:hover {
   color: #000000;
   background-image: rgba(255, 255, 255, 0.3);
 }
@@ -56,9 +56,9 @@
   color: #ffffff;
 }
 
-#Lunch:hover {
+#lun:hover {
   color: #000000;
-}
+  }
 
 #lun {
   font-family: 'Catamaran';
@@ -74,8 +74,9 @@
   color: #ffffff;
 }
 
-#Dinner:hover {
+#dine:hover {
   color: #000000;
+  background-image: url("../img/foodtop/dinner2.jpg");
 }
 
 #dine {
@@ -105,7 +106,8 @@
   background-color: #F15A29;
   text-align: center;
   align-content: center;
-}
+  color:white;
+  }
 
 #cf {
   height: 161px;
@@ -137,36 +139,29 @@
 #about {
   padding-left: 10px;
 }
+
 .foot {
-  background-color: #F15A29
-  text-align:center;
+  background-color: #F15A29 text-align:center;
   color: white;
 }
+
 #menn {
   font-weight: 400;
   font-family: 'Catamaran';
   font-size: 35px;
 }
 
-.tagline {
-  text-align: center;
-  align-content: center;
-}
-
 #back {
   background-image: url("../img/backgrounds/foodsBg.jpg");
   background-repeat: no-repeat;
   border-radius: 0;
-  height:350px;
+  height: 350px;
 }
-#row2{
-  padding-bottom:30px;
+
+#row2 {
+  padding-bottom: 30px;
 }
-#fad{
+
+#fad {
   border-style: groove;
-}
-.foot {
-  background-color: #F15A29
-  text-align:center;
-  color: white;
 }
