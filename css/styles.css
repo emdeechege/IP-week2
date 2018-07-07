@@ -154,3 +154,18 @@
 #fad {
   border-style: groove;
 }
+.col3{
+  border:2px;
+  display:flex;
+  }
+
+#foodsBg {
+  float: right;
+  padding-right:0px;
+  margin-left:8%;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
