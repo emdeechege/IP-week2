@@ -85,11 +85,7 @@
   font-size: 30px;
 }
 
-#grid {
-  background-image: url("../img/backgrounds/foodsBg.jpg");
-  background-color: #FFFFFFFF;
 }
-
 #customers {
   text-align: center;
   width: 1000px;
@@ -113,14 +109,6 @@
 #cf {
   height: 161px;
   padding-top: 100px;
-}
-
-.row {
-  margin-right: 0px;
-  margin-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  text-align: center;
 }
 
 #second {
