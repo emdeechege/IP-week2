@@ -39,7 +39,7 @@
 
 #break:hover {
   color: #000000;
-  background-image: rgba(255, 255, 255, 0.3);
+  background-image: url("../img/foodtop/dinner2.jpg");;
 }
 
 #break {
@@ -58,6 +58,7 @@
 
 #lun:hover {
   color: #000000;
+  background-image: url("../img/foodtop/dinner2.jpg");
   }
 
 #lun {
