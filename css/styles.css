@@ -112,12 +112,11 @@
 }
 
 #second {
-  width: 1014px;
+  width: 1000px;
   height: 210px;
 }
 
 #our {
-  border-right-style: groove;
   padding-right: 0px;
   border-width: thin;
   padding-bottom: 10px;
@@ -168,4 +167,5 @@
 .padding-0{
     padding-right:0;
     padding-left:0;
+    margin-top: 0;
 }
